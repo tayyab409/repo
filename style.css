@@ -1,0 +1,170 @@
+ /* Home page start  */
+ #main{
+    
+    background-image: url(./Image/Background\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    text-align: center;
+    overflow-y: scroll;
+    display: flex;
+    
+} 
+ .main1{ 
+text-align: center; 
+transform: 50%;
+place-content: center;
+align-items: center;
+position: absolute;
+inset: 0;
+z-index: -1;
+text-align: center;
+text-size-adjust: 50px;
+color: rgb(255, 255, 255);
+font-size: 75px;
+ }
+ .main2{
+    color: purple;
+
+ }
+ .button{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+ }
+ .header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+margin: 0;
+padding: 0;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   color: #ffffff;
+}
+.nav li {
+    margin-right: 20px;
+    list-style: none;
+    margin-left: -30%;
+  
+  }
+  .nav a {
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+  }
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  /* Portfolio section start  */
+
+.port1{
+  font-size: 20px;
+  margin-left: 0;
+  /* margin-right: 20px; */
+  width: 100%;
+  height: 50%;
+  text-align: center;
+
+
+}
+
+#portfolio{
+  width: 100%;
+  height: 100%;
+}
+.leftpic{
+   display: block;
+  align-items: center;
+  text-align: center;
+
+}
+
+.buttonp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.headingp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+/* About Section start */
+#mainab{
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+.mainab1{
+  text-align: center;
+  font-size: 50px;
+}
+.mainab2{
+  text-align: center;
+  font-size: medium;
+}
+/* contact section start  */
+
+#contact{
+background-image: url(./Image/background1.jpg);
+position: absolute;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+inset: 0;
+
+}
+
+.contact1{
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.contact2{
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.contact3{
+  font-size: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+.button{
+  font-size: xx-large;
+  appearance: button;
+  border: none;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+.button:hover{
+  background-color: #0069d9;
+}
+.button:active{
+  background-color: #ff0000;
+}
